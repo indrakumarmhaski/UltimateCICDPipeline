@@ -5,9 +5,6 @@ This end-to-end Jenkins pipeline will automate the entire CI/CD process for a Dj
 
 
 
-
-Today, I built the ultimate end-to-end CI/CD pipeline that automates the entire CI/CD process for a Django application.
-
 The pipeline operates with the following flow: Developers push their code to the GitHub repository. GitHub webhooks then trigger the Jenkins build. If the build is successful, the Docker image is pushed to Docker Hub, and the manifest repository is updated. ArgoCD continuously monitors the manifest repository and deploys the Docker image to the Kubernetes cluster.
 
 Components of the pipeline:
